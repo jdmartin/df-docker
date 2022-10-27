@@ -15,8 +15,9 @@ Just a simple dockerized dwarf-fortress.
 # Execution
 For my part, I use a command like this to run my game:
   
-  ```docker run -it --network none --security-opt="no-new-privileges:true" --rm --mount type=bind,source=/path/to/data/movies,target=/root/.local/share/dwarf-fortress/run/data/movies --mount type=bind,source=/path/to/data/save,target=/root/.local/share/dwarf-fortress/run/data/save --name dwarf-fortress songsthatsaved/dwarf-fortress```
-  
+```bash
+docker run -it --network none --security-opt="no-new-privileges:true" --rm --mount type=bind,source=/path/to/data/movies,target=/root/.local/share/dwarf-fortress/run/data/movies --mount type=bind,source=/path/to/data/save,target=/root/.local/share/dwarf-fortress/run/data/save --name dwarf-fortress songsthatsaved/dwarf-fortress
+```  
   This command:
   - Isolates the game by turning off network access.
   - Ensures the container cannot change privileges after execution. [(See Reference)](https://docs.docker.com/engine/reference/run/)
