@@ -10,8 +10,8 @@ Just a simple dockerized dwarf-fortress.
   - Sets `SOUND` to NO
   - Sets `INTRO` to NO
   
-  # Execution
-  For my part, I use a command like this to run my game:
+# Execution
+For my part, I use a command like this to run my game:
   
   ```docker run -it --network none --security-opt="no-new-privileges:true" --rm --mount type=bind,source=/path/to/data/movies,target=/root/.local/share/dwarf-fortress/run/data/movies --mount type=bind,source=/path/to/data/save,target=/root/.local/share/dwarf-fortress/run/data/save --name dwarf-fortress songsthatsaved/dwarf-fortress```
   
