@@ -1,5 +1,5 @@
 name: hadolint-action
-on: [push, pull_request]
+on: [pull_request]
 jobs:
   hadolint:
     name: runner / hadolint
