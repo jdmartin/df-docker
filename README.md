@@ -1,3 +1,5 @@
+[![hadolint-action](https://github.com/jdmartin/df-docker/actions/workflows/hadolint.yml/badge.svg?branch=main)](https://github.com/jdmartin/df-docker/actions/workflows/hadolint.yml)
+
 # df-docker
 Just a simple dockerized dwarf-fortress.
 
