@@ -1,4 +1,4 @@
-name: hadolint-action
+name: docker-lint-and-build
 on: [pull_request]
 jobs:
   hadolint:
