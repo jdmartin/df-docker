@@ -1,4 +1,4 @@
-[![hadolint-action](https://github.com/jdmartin/df-docker/actions/workflows/hadolint.yml/badge.svg?branch=main)](https://github.com/jdmartin/df-docker/actions/workflows/hadolint.yml)
+[![docker-lint](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml/badge.svg)](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml)
 
 # df-docker
 Just a simple dockerized dwarf-fortress.
