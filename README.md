@@ -1,4 +1,4 @@
-[![docker-lint](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml/badge.svg)](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml)
+[![docker-lint](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml/badge.svg)](https://github.com/jdmartin/df-docker/actions/workflows/docker-lint.yml) [![docker-publish](https://github.com/jdmartin/df-docker/actions/workflows/docker-build.yml/badge.svg)](https://github.com/jdmartin/df-docker/actions/workflows/docker-build.yml)
 
 # df-docker
 Just a simple dockerized dwarf-fortress.
