@@ -1,5 +1,8 @@
 name: docker-lint-and-build
-on: [pull_request]
+on:
+  push:
+    paths:
+      - Dockerfile
 jobs:
   hadolint:
     name: runner / hadolint
