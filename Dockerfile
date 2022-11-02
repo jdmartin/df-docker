@@ -1,5 +1,6 @@
 FROM ubuntu:jammy
 
+
 RUN apt-get update \
     && apt-get install locales libncursesw5 dwarf-fortress --no-install-recommends -y \
     && apt-get clean \
