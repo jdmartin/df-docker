@@ -4,7 +4,7 @@
 Just a simple dockerized dwarf-fortress.
 
 # Notes
-- Based on ubuntu:jammy.
+- Based on ubuntu:lunar.
 - Installs locales, libncursesw5, and dwarf-fortress
 - Dwarf Fortress Specific:
   - Sets `PRINT_MODE` to TEXT
