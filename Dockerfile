@@ -1,6 +1,6 @@
 FROM ubuntu:lunar
 
-#Build Aug 3, 2023
+#Build Sep 1, 2023
 
 RUN apt-get update \
     && apt-get install locales libncursesw5 dwarf-fortress --no-install-recommends -y \
